@@ -1,7 +1,6 @@
 import { getSettings } from "@/lib/sanity/client";
 import Footer from "@/components/footer";
 import { urlForImage } from "@/lib/sanity/image";
-import Navbar from "@/components/navbar";
 
 export async function sharedMetaData(params) {
   const settings = await getSettings();
@@ -13,8 +12,7 @@ export async function sharedMetaData(params) {
       template: "%s | Karte woodworks"
     },
     description: settings?.description || "Karte woodworks",
-    keywords: ["Next.js", "Sanity", "Tailwind CSS"],
-    authors: [{ name: "Surjith" }],
+    authors: [{ name: "Ryusuke Fujimoto" }],
     canonical: settings?.url,
     openGraph: {
       images: [
@@ -42,15 +40,13 @@ export async function generateMetadata({ params }) {
   return await sharedMetaData(params);
 }
 
-export default async function Layout({ children, params }) {
+export default async function Layout({ children }) {
   const settings = await getSettings();
   return (
     <>
-      {/* <Navbar {...settings} /> */}
-
       <div>{children}</div>
 
-      {/* <Footer {...settings} /> */}
+      <Footer {...settings} />
     </>
   );
 }
