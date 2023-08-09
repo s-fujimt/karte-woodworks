@@ -5,7 +5,8 @@ import PostList from "@/components/postlist";
 export default function Post({ posts }) {
   return (
     <>
-      {posts && (
+      <center>準備中</center>
+      {/* {posts && (
         <Container>
           <div className="grid gap-10 md:grid-cols-2 lg:gap-10 ">
             {posts.slice(0, 2).map(post => (
@@ -30,7 +31,7 @@ export default function Post({ posts }) {
             </Link>
           </div>
         </Container>
-      )}
+      )} */}
     </>
   );
 }
