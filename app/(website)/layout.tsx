@@ -9,14 +9,10 @@ export async function sharedMetaData(params) {
   return {
     // metadataBase: new URL(settings.url),
     title: {
-      default:
-        settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
-      template: "%s | Stablo"
+      default: settings?.title || "Karte woodworks",
+      template: "%s | Karte woodworks"
     },
-    description:
-      settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
+    description: settings?.description || "Karte woodworks",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Surjith" }],
     canonical: settings?.url,
@@ -32,7 +28,7 @@ export async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "Karte woodworks",
       card: "summary_large_image"
     },
     robots: {
