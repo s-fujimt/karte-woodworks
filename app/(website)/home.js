@@ -5,7 +5,12 @@ import PostList from "@/components/postlist";
 export default function Post({ posts }) {
   return (
     <>
-      <center>準備中</center>
+      <div className="flex h-screen flex-col items-center justify-center">
+        <img src="/img/kartewoodworks-logohp.png" />
+        <br />
+        <br />
+        準備中
+      </div>
       {/* {posts && (
         <Container>
           <div className="grid gap-10 md:grid-cols-2 lg:gap-10 ">
