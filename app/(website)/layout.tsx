@@ -35,9 +35,14 @@ import { urlForImage } from "@/lib/sanity/image";
 //   };
 // }
 
-// export async function generateMetadata() {
-//   return await sharedMetaData();
-// }
+export async function generateMetadata() {
+  // return await sharedMetaData();
+  return {
+    title: "Karte woodworks",
+    description: "Karte woodworks",
+    canonical: "https://karte-woodworks.com"
+  };
+}
 
 export default async function Layout({ children }) {
   const settings = await getSettings();
