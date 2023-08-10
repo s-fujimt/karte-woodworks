@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex flex-col gap-4 text-sm md:flex-row md:gap-6 md:text-base">
             <a
               className="flex w-64 items-center justify-center gap-2 rounded-full bg-white bg-opacity-50 px-5 py-3 font-medium uppercase leading-normal shadow transition duration-150 ease-in-out hover:shadow-md focus:shadow-md focus:outline-none focus:ring-0 active:shadow-md md:w-72"
-              href="https://www.instagram.com/karte_remaking_factory/"
+              href="https://www.instagram.com/karte_woodworks/"
               target="_blank"
               rel="noreferrer">
               <svg
