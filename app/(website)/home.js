@@ -16,7 +16,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="z-10 flex w-full flex-col items-center justify-center gap-12 md:gap-18"
+          className="md:gap-18 z-10 flex w-full flex-col items-center justify-center gap-12"
           style={{ height: "60vh" }}>
           <div>
             <Image
@@ -26,11 +26,12 @@ export default function Home() {
               width="250"
             />
           </div>
-          <div class="flex flex-col gap-4 md:flex-row md:gap-6 text-sm md:text-base">
+          <div class="flex flex-col gap-4 text-sm md:flex-row md:gap-6 md:text-base">
             <a
               class="flex w-56 items-center justify-center gap-2 rounded-full bg-white bg-opacity-60 px-5 py-3 font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
               href="https://www.instagram.com/karte_remaking_factory/"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -43,6 +44,7 @@ export default function Home() {
             <a
               class="flex w-56 items-center justify-center gap-2 rounded-full bg-white bg-opacity-60 px-5  py-3 text-sm font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
               href="https://karte.theshop.jp/"
+              rel="noreferrer"
               target="_blank">
               <svg
                 class="h-6 w-6"
