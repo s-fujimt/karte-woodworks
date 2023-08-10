@@ -1,17 +1,12 @@
 import "@/styles/tailwind.css";
 import { Providers } from "./providers";
 import { cx } from "@/utils/all";
-import { Inter, Lora } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter"
-});
-
-const lora = Lora({
-  subsets: ["latin"],
-  variable: "--font-lora"
+const noto_sans_jp = Noto_Sans_JP({
+  variable: "--font-noto_sans_jp",
+  subsets: ["latin-ext"]
 });
 
 export default function RootLayout({
@@ -23,8 +18,8 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cx(inter.variable, lora.variable)}>
-      <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
+      className={cx(noto_sans_jp.variable)}>
+      <body className="text-gray-800 antialiased">
         <Providers>{children}</Providers>
         <Analytics />
       </body>
