@@ -19,7 +19,7 @@ module.exports = {
           "var(--font-sans_jp)",
           ...defaultTheme.fontFamily.sans
         ],
-        // serif: ["var(--font-lora)", ...defaultTheme.fontFamily.serif],
+        serif: [defaultTheme.fontFamily.serif],
         stock: [defaultTheme.fontFamily.sans]
       },
       aspectRatio: {
