@@ -40,7 +40,11 @@ export async function generateMetadata() {
   return {
     title: "Karte woodworks",
     description: "Karte woodworks",
-    canonical: "https://karte-woodworks.com"
+    canonical: "https://karte-woodworks.com",
+    robots: {
+      index: true,
+      follow: true
+    }
   };
 }
 

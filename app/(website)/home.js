@@ -13,6 +13,7 @@ export default function Home() {
             src={BG}
             alt="Karte Woodworks"
             className="h-full w-full object-cover opacity-50"
+            priority={true}
           />
         </div>
         <div
