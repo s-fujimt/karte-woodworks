@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 text-sm md:flex-row md:gap-6 md:text-base">
             <a
-              className="flex w-64 items-center justify-center gap-2 rounded-full bg-white bg-opacity-50 px-5 py-3 font-medium uppercase leading-normal shadow transition duration-150 ease-in-out hover:shadow-md focus:shadow-md focus:outline-none focus:ring-0 active:shadow-md md:w-72"
+              className="flex w-64 items-center justify-center gap-2 rounded-full bg-white bg-opacity-50 px-5 py-3 uppercase leading-normal shadow transition duration-150 ease-in-out hover:shadow-md focus:shadow-md focus:outline-none focus:ring-0 active:shadow-md md:w-72"
               href="https://www.instagram.com/karte_woodworks/"
               target="_blank"
               rel="noreferrer">
@@ -44,7 +44,7 @@ export default function Home() {
               インスタで活動を確認
             </a>
             <a
-              className="flex w-64 items-center justify-center gap-2 rounded-full bg-white bg-opacity-50 px-5 py-3 text-sm font-medium uppercase leading-normal shadow transition duration-150 ease-in-out hover:shadow-md focus:shadow-md focus:outline-none focus:ring-0 active:shadow-md md:w-72"
+              className="flex w-64 items-center justify-center gap-2 rounded-full bg-white bg-opacity-50 px-5 py-3 uppercase leading-normal shadow transition duration-150 ease-in-out hover:shadow-md focus:shadow-md focus:outline-none focus:ring-0 active:shadow-md md:w-72"
               href="https://karte.theshop.jp/"
               rel="noreferrer"
               target="_blank">
