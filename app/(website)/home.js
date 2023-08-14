@@ -26,6 +26,7 @@ export default function Home() {
               alt="Karte Woodworks"
               unoptimized={true}
               width="250"
+              priority={true}
             />
           </div>
           <div className="flex flex-col gap-4 text-sm md:flex-row md:gap-6 md:text-base">
